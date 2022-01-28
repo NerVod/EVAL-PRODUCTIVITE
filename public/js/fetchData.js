@@ -141,12 +141,12 @@ window.addEventListener('DOMContentLoaded', () => {
   const pokemonAbility = () => {
     pokeAbilityBtn.addEventListener('click', fetchPokemonAbilities)
     pokeDiv.appendChild(pokeAbility)
-  }
+  };
   /**
    *function to start functions to create pokemon and abilities on user's click
    *
    */
-  ;(function startAll() {
+  (function startAll() {
     invoquePokemon()
     pokemonAbility()
   })()
