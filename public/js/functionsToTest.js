@@ -1,4 +1,4 @@
-const returnAnObject = (...args) => {
+export const returnAnObject = (...args) => {
   let response = {};
   if (args.length) {
     let index = 0;
@@ -12,7 +12,7 @@ const returnAnObject = (...args) => {
   return response;
 };
 
-const multiplyAllByTwo = (arrayOfNumbers) => {
+export const multiplyAllByTwo = (arrayOfNumbers) => {
   let response;
   if (
     arrayOfNumbers.constructor.prototype === new Array().constructor.prototype
