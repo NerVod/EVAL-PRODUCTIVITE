@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "eslint": "^8.7.0",
-    "jest": "^27.4.7"
+    "jest": "^27.4.7",
+    "jsdoc": "^3.6.10",
+    "prettier": "^2.5.1"
   }
 }
